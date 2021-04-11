@@ -1,0 +1,10 @@
+Program
+	                    <tr><td>10:00 - 10:30 Příjezd svatebčanů</td></tr>
+                            <tr><td><b>11:30 - obřad</b></td></tr>
+                            <tr><td>13:00 - Příptek + hostina</td></tr>
+                            <tr><td>16:00 - krájení dortu</td></tr>
+                            <tr><td>17:00 - Hod květinou alias výběr další nevěsty</td></tr>
+                            <tr><td>17:30 - Šipkovaná + zahájení her</td></tr>
+                            <tr><td>18:30 - Fotokoutek</td></tr>
+                            <tr><td>21:00 - Novomanželský kvíz</td></tr>
+                            <tr><td>22:00 - Prskavkový tanec</td></tr>

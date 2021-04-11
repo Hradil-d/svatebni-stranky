@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "chasing";
+    src: url("chasing.ttf");
+}
+body {
+    margin: 0px;
+}
+header > .uvod {
+    height: 950px;
+    width: 100%;
+    background-image:url("web1d.png");
+    background-size: 100%;
+    opacity: 85%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+p {
+    font-family: "chasing";
+    font-size: 28px;
+}
+span {
+    font-family: "chasing";
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    font-family: "chasing";
+    margin-top: 60px;
+    padding-left: 150px;
+    font-size: 100px;
+    color: rgb(250, 250, 250);
+}
+h2 {
+    font-family: "chasing";
+    font-size: 80px;
+    color: aliceblue;
+    margin-top: 80px;
+    padding-left: 1400px;
+}
+h3 {
+    font-family: "chasing";
+    text-align: center;
+    font-size: 40px;
+}
+h4 {
+    font-family: "chasing";
+    font-size: 45px;
+}
+h5 {
+    font-family: "chasing";
+    text-align: center;
+    font-size: 25px;
+}
+section{
+    width: auto;
+    padding: 20px 0;
+}
+#countdown {
+    font-family: "chasing";
+}
+#countdown .kolečka {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+#countdown .kolečka div {
+    width: 110px;
+    height: 100px;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row; 
+}
+#countdown .kolečka div p {
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+}
+#otázky,
+#text,
+#dary {
+    background-color: #ffebcd50;
+}
+#text > .povidani > p {
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#fotka1 {
+    background-image: url("zahrada11.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 85%;
+}
+#fotka2 {
+    background-image: url("fotka2.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+}
+#tabulka {
+    text-align: center;
+    width: 20%;
+    margin: 20px 40% 20px 40%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+#program > table > tbody > tr:nth-child(2n) {
+    background-color: #ffebcd73;
+}
+td {
+    padding: 10px;
+    font-family: "chasing";
+    font-size: 23px;
+}
+#program > p {
+    text-align: center;
+}
+#otázky > div > p {
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#ubytování > .farma > .text > p {
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#tabule {
+    width: 64%;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    border-collapse: collapse;
+}
+#tabule > thead {
+    font-size: 20px;
+    background-color: black;
+    color: blanchedalmond;
+}
+#tabule > tbody > tr > td {
+    font-size: 25px;
+}
+#tabule > tbody > tr:nth-child(2n) {
+    background-color: #ffebcd73;
+}
+#dary > p {
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#kontakty > .celek {
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#kontakty > .celek > div {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,.3);
+}
+#kontakty > .celek > .okna {
+    display: flex;
+    flex-direction: column;    
+}
+#kontakty > .celek > .okna > .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#kontakty > .celek > .okna > .box > b {
+    font-family: "chasing";
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+#kontakty > .celek > .okna > p {
+    font-size: 23px;
+    padding-left: 10px;
+}
+#kontakty > .celek > .okna > .box > img {
+    margin-top: 0px;
+}
+#kontakty > .celek > .okna > .mail {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    background-color: #ffebcd73;
+}
+#kontakty > .celek > .okna > .mail > a {
+    font-size: 20px;
+    padding-right: 15px;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+#kontakty > .celek > .okna > .mail > a:hover {
+    transform: scale(1.1);
+}
+.farma > .adresa {
+    margin-left: 37%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.farma > .adresa > b {
+    font-family: "chasing";
+    font-size: 35px;
+}
+.farma > .adresa > a{
+    font-family: "chasing";
+    font-size: 27px;
+    color:black;
+    text-decoration: none;
+}
+.farma > .adresa > a:hover {
+    transform: scale(1.05);
+}
