@@ -8,7 +8,7 @@
         var minutes = 0;
 
         // get diff
-        var wedding = new Date('2021/05/16 11:30:00');
+        var wedding = new Date('2021/05/29 11:30:00');
         var now = new Date();
         var diff = wedding.getTime() - now.getTime();
 
