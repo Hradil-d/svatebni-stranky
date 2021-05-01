@@ -57,6 +57,7 @@ h5 {
 section{
     width: auto;
     padding: 20px 0;
+    margin: auto;
 }
 #countdown {
     font-family: "chasing";
@@ -94,8 +95,8 @@ section{
 #text > .povidani > p {
     font-size: 25px;
     text-align: justify;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 #fotka1 {
     background-image: url("zahrada11.png");
@@ -132,14 +133,14 @@ td {
 #otázky > div > p {
     font-size: 25px;
     text-align: justify;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 #ubytování > .farma > .text > p {
     font-size: 25px;
     text-align: justify;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 #tabule {
     width: 64%;
@@ -162,8 +163,8 @@ td {
 #dary > p {
     font-size: 25px;
     text-align: justify;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 #kontakty > .celek {
     margin-right: auto;
