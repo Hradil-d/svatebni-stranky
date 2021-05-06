@@ -6,12 +6,12 @@ body {
     margin: 0px;
 }
 header > .uvod {
-    height: 950px;
+    height: 55%;
     width: 100%;
-    background-image:url("web1d.png");
+    background-image:url("web1d.jpg");
     background-size: 100%;
     opacity: 85%;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
