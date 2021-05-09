@@ -6,7 +6,7 @@ body {
     margin: 0px;
 }
 header > .uvod {
-    height: 85%;
+    height: 100%;
     width: 100%;
     background-image:url("web1d.jpg");
     background-size: 100%;
@@ -144,8 +144,8 @@ td {
 }
 #tabule {
     width: 64%;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
     border-collapse: collapse;
 }
